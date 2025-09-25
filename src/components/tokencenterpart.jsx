@@ -8,7 +8,7 @@ import singlecoin from "../assets/images/singlecoin.svg";
 import leftsmallcoins from "../assets/images/leftsmallcoins.svg";
 import rightsmallcoins from "../assets/images/rightsmallcoins.svg";
 import blurcoin from "../assets/images/blurcoin.svg";
-import Tokenbgvideo from "../assets/video/tokensectionvideo.mp4";
+import Tokenbgvideo from "../assets/video/Tokensectionvideo.mp4";
 
 const Tokencenterpart = () => {
   const supplyCards = [
