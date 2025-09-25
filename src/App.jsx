@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Element } from 'react-scroll';
 import './App.css'
 
 import Hero from './components/hero'
@@ -25,13 +25,14 @@ import Mainlandingpage from "./components/Homelandingpage"
 import Navbar from './components/navbar'
 import Home from './components/home'
 import Bruce from './components/Bruce'
+import Homepage from './components/main'
 
 
 
 function App() {
  return (
     <>
-<Home/>
+{/* <Home/>
 
 <SecondComponent/>
 <GamePlay/>
@@ -44,7 +45,7 @@ function App() {
   <SuperNews />
  <PublishedBy/>
  <Squad />
-  <FAQ />
+  <FAQ /> */}
  
 
 
@@ -53,23 +54,12 @@ function App() {
  {/* <Route path="/drbruce" element={<DrBruceMain />} /> */}
 
 
-    {/* <Router>
+    <Router>
     <Routes>
-        <Route path="/" element={<Mainlandingpage />} />
-        <Route path="/second" element={<SecondComponent />} />
-        <Route path="/gameplay" element={<GamePlay />} />
-        <Route path="/vrteaser" element={<VrTeaser />} />
+        <Route path="/" element={<Homepage />} />
        
-        <Route path="/token" element={<Tokencenterpart />} />
-        <Route path="/partners" element={<Partner />} />
-        <Route path="/future-ai" element={<FuturePlanAI />} />
-        <Route path="/roadmap" element={<RoadMap />} />
-        <Route path="/news" element={<SuperNews />} />
-        <Route path="/published" element={<PublishedBy />} />
-        <Route path="/squad" element={<Squad />} />
-        <Route path="/faq" element={<FAQ />} />
     </Routes>
-   </Router>  */}
+   </Router> 
 
     </>
   );
