@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: Glaive;
+    src: url('./assets/fonts/FontsFree-Net-GlaiveRegular.ttf');
+};
+
+.Relay {
+  font-family: "Raleway", sans-serif;
+}
+.Rajdhani {
+  font-family:"Rajdhani", sans-serif;
+}
+
+
+
+@import "tailwindcss";
+
+@theme {
+    --font-Relay:"Raleway", sans-serif;
+    --font-GlassAntique:"Glaive";
+    --font-Rajdhani: "Rajdhani", sans-serif;
+    --font-Fuguz: "Fugaz One", sans-serif;
+    /* color */
+
+    --color-yellow: #FFC810;
+    --color-red :#E91515;
+
+};
+
+
+
+
+
+
+
+
+h1{
+  font-size: 36px;
+}
+h2{
+font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  h1{
+  font-size: 24px;
+}
+h2{
+font-size: 16px;
+}
+}
+
+.anticon .anticon-right .ant-collapse-arrow{
+display: none;
+}
+.ant-collapse-item {
+  border: none !important;
+  background-color: none !important;
+}
+
+
+:where(.css-dev-only-do-not-override-1odpy5d).ant-collapse-borderless {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+@media screen and (max-width: 468px) {
+ .squad .squadslide{
+   padding-left: 0%;
+   
+  };
+}
+@media screen and (max-width: 668px) {
+ .squad .squadslide{
+   padding-left: 8%
+  };
+}
+@media screen and (max-width: 767px) {
+ .squad .squadslide{
+   padding-left: 1%;
+
+  };
+}
+@media screen and (min-width:768px ) and (max-width:867px) {
+  .squad .squadslide{
+   margin-left: 4%
+  };
+}
+@media screen and (min-width:867px ) and (max-width:1023px) {
+  .squad .squadslide{
+   margin-left: 40%
+  };
+}
+@media screen and (min-width:1024px ) and (max-width:1200px) {
+  .squad .squadslide{
+ 
+  margin-left: 60% !important;
+ 
+  };
+}
+@media screen and (min-width:1201px ) and (max-width:1280px) {
+  .squad .squadslide{
+ 
+  margin-right: 0% !important;
+ 
+  };
+}
+@media screen and (min-width:1281px ) and (max-width:2020px) {
+  .squad .squadslide{
+ 
+  margin-left: 20% !important;
+ 
+ 
+  };
+}
+
+
+
+
+
+/* bruce section slider */
+
+ 
+
+
+
+/* Drbruce swiper css */
+
+  .swiper-navigation-icon{
+    color: red;
+    width: 30px;
+    height: 40px;
+  
+  }
+
+@media screen and (max-width:480px ) {
+  
+
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 40px !important;
+  padding-left: 10% !important;
+  padding-top:  50px;
+  padding-bottom:  50px;
+  justify-content: start !important;
+}
+}
+@media screen and (min-width:480px ) and (max-width:640px ) {
+
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 80px !important;
+  padding-left: 10% !important;
+  padding-top:  50px;
+  padding-bottom:  50px;
+  justify-content:end !important;
+}
+}
+@media screen and (min-width:641px ) and (max-width:767px) {
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 120px !important;
+  padding-left: 10% !important;
+  padding-top:  50px;
+  padding-bottom:  50px;
+  justify-content:end !important;
+}
+}
+@media screen and (min-width:768px ) and (max-width:900px) {
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 160px !important;
+  padding-left: 5% !important;
+  padding-top:  50px;
+  padding-bottom:  50px;
+  justify-content:end !important;
+}
+}
+@media screen and (min-width:901px ) and (max-width:1024px) {
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 220px !important;
+  padding-left: 5% !important;
+  justify-content:end !important;
+}
+}
+@media screen and (min-width:1025px ) and (max-width:1280px) {
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 250px !important;
+  padding-left: 5% !important;
+  justify-content:end !important;
+}
+}
+@media screen and (min-width:1281px )  {
+.myswiper .swiper-wrapper,
+.swiper-slide .brucetext{
+  font-size: 355px !important;
+  padding-left: 3% !important;
+  justify-content:end !important;
+}
+}
